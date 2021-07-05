@@ -16,7 +16,7 @@ const (
 	// This effectively mandates the maximum chunk size
 	// See discussion at https://github.com/ipfs/go-ipfs-chunker/pull/21#discussion_r369124879 for background
 	// I want chunker blocksize up to 4MiB
-	ChunkSizeLimit int = 4 * 2 ** 20
+	ChunkSizeLimit int = 4194304
 )
 
 var (
